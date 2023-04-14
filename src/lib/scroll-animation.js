@@ -49,7 +49,7 @@ export const scrollAnimation = (position, target, isMobile, onUpdate) => {
     })
     .to(position, {
       x: !isMobile ? 1.56 : 9.36,
-      y: !isMobile ? -5.0 : 10.95,
+      y: !isMobile ? 5.0 : 10.95,
       z: !isMobile ? 0.01 : 0.09,
       scrollTrigger: {
         trigger: ".display-section",
